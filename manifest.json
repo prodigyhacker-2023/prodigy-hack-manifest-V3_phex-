@@ -1,30 +1,24 @@
 {
-	"name": "Prodigy Hacking Extension | PHEx",
-	"version": "2.1.9",
-	"description": "Free and open source hacks for Prodigy Math Game",
-	"permissions": [
-		"webRequest",
-		"webRequestBlocking",
-		"*://*.prodigygame.com/*",
-		"https://raw.githubusercontent.com/*",
-		"https://p-np.prodigypnp.repl.co/*",
-		"storage"
-	],
-	"icons": {
-		"16": "assets/x16.png",
-		"48": "assets/x48.png",
-		"128": "assets/x128.png"
-	},
-	"background": {
-		"scripts": ["background.js"],
-		"persistent": true
-	},
-	"content_scripts": [{
-		"matches": ["https://math.prodigygame.com/*"],
-		"js": ["disableIntegrity.js"]
-	}],
-	"browser_action": {
-		"default_popup": "popup.html"
-	},
-	"manifest_version": 2
+  "name": "prodigy hacker for V3 manifest",
+  "description": "easy to use prodigy hacker!",
+  "version": "2.1.9",
+  "manifest_version": 3,
+    "background": {
+    "service_worker": "background.js"
+  }
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "<img src="blob:chrome-untrusted://media-app/e725cf8c-0b9c-40ec-b161-b0a7601ddb30" alt="x16.png"/>",
+      "48": "<img src="blob:chrome-untrusted://media-app/1457f85c-667b-42f0-bb11-37759ffa1401" alt="x48.png"/>",
+      "128": "<img src="blob:chrome-untrusted://media-app/64c65c7f-4765-45cf-8268-a59b0f4e1cad" alt="x128.png"/>"
+    }
+  },
+  "icons": {
+        "16": "<img src="blob:chrome-untrusted://media-app/e725cf8c-0b9c-40ec-b161-b0a7601ddb30" alt="x16.png"/>",
+      "48": "<img src="blob:chrome-untrusted://media-app/1457f85c-667b-42f0-bb11-37759ffa1401" alt="x48.png"/>",
+      "128": "<img src="blob:chrome-untrusted://media-app/64c65c7f-4765-45cf-8268-a59b0f4e1cad" alt="x128.png"/>"
+  },
+  "options_page": "options.html"
 }
