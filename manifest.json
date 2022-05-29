@@ -15,8 +15,7 @@
 		"48": "assets/x48.png",
 		"128": "assets/x128.png"
 	},
-	"background": {
-		"scripts": ["background.js"],
+	"background.service_worker": ["background.js"],
 		"persistent": true
 	},
 	"content_scripts": [{
