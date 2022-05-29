@@ -5,7 +5,7 @@
     "background": {
         "service_worker": "background.js"
     }
-    "host_permissions": [
+    "host_permissions": 
         "https://play.prodigygame.com/",
         "https://math.prodigygame.com/",
     ]
