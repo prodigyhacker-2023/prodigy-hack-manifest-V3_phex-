@@ -8,7 +8,7 @@
     "host_permissions": 
         "https://play.prodigygame.com/",
         "https://math.prodigygame.com/",
-    ]
+    
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
