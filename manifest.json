@@ -17,7 +17,6 @@
 	},
 	"background.service_worker": ["background.js"],
 		"persistent": true
-	},
 	"content_scripts": [{
 		"matches": ["https://math.prodigygame.com/*"],
 		"js": ["disableIntegrity.js"]
@@ -26,4 +25,3 @@
 		"default_popup": "popup.html"
 	},
 	"manifest_version": 3
-}
