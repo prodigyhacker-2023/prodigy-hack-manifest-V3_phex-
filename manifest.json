@@ -10,7 +10,7 @@
 		"https://p-np.prodigypnp.repl.co/*",
 		"storage"
 	]
-}"background.js"],
+}"background.js"
 "content_scripts": [{
 	"matches": ["https://math.prodigygame.com/*"],
 	"js": ["disableIntegrity.js"]
