@@ -9,12 +9,13 @@
 		"https://raw.githubusercontent.com/*",
 		"https://p-np.prodigypnp.repl.co/*",
 		"storage"
-	"service_worker": ["background.js"],
-	"content_scripts": [{
-		"matches": ["https://math.prodigygame.com/*"],
-		"js": ["disableIntegrity.js"]
-	}],
-	"browser_action": {
-		"default_popup": "popup.html"
-	},
-	"manifest_version": 3 
+	]
+}"background.js"],
+"content_scripts": [{
+	"matches": ["https://math.prodigygame.com/*"],
+	"js": ["disableIntegrity.js"]
+}],
+"browser_action": {
+	"default_popup": "popup.html"
+},
+"manifest_version": 3
