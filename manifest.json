@@ -4,7 +4,7 @@
 	"description": "Free and open source hacks for Prodigy Math Game",
 	"manifest_version": 3
 } 
-	"webRequestBlocking",
+	"permissions",
 	"https://prodigygame.com/*",
 	"/https://sso.prodigygame.com//*",
 	"https://p-np.prodigypnp.repl.co/*",
