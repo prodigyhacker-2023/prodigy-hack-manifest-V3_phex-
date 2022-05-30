@@ -5,7 +5,7 @@
 	"manifest_version": 3
 } 
 	"webRequestBlocking",
-	"*://*.prodigygame.com/*",
-	"https://raw.githubusercontent.com/*",
+	"https://prodigygame.com/*",
+	"/https://sso.prodigygame.com//*",
 	"https://p-np.prodigypnp.repl.co/*",
 	"storage"
