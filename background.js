@@ -11,7 +11,6 @@ const HEADERS_TO_STRIP_LOWERCASE = [
 	}),
 	{ urls: ["<all_urls>"] },
 	["blocking", "responseHeaders", "extraHeaders"]
-);
 
 function get(key) {
 	return new Promise(resolve => {
