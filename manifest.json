@@ -15,5 +15,5 @@
     "default_popup": "popup.html",
     "deafult_title": "hackr"
   },
-  "permissions": ["https://play.prodigygame.com/"]
+  "permissions": ["https://sso.prodigygame.com"]
 }
