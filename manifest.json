@@ -1,20 +1,28 @@
-{"name": "Prodigy hacker",
-    "description": "gotta keep on hacking :).",
-    "version": "2.2.0",
-    "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    }
-        "https://play.prodigygame.com/",
-        "https://math.prodigygame.com/",
-    
-    "action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "128": "./icon.png"
-        }
-    }
-    "icons": {
-        "128": "./icon.png"
-    }
+{
+	"name": "Prodigy Hacking Extension | PHEx",
+	"version": "2.1.9",
+	"description": "Free and open source hacks for Prodigy Math Game",
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://*.prodigygame.com/*",
+		"https://raw.githubusercontent.com/*",
+		"https://p-np.prodigypnp.repl.co/*",
+		"storage"
+	],
+	"icons": {
+		"16": "assets/x16.png",
+		"48": "assets/x48.png",
+		"128": "assets/x128.png"
+	},
+	"service_worker": ["background.js"],
+	},
+	"content_scripts": [{
+		"matches": ["https://math.prodigygame.com/*"],
+		"js": ["disableIntegrity.js"]
+	}],
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"manifest_version": 3
 }
