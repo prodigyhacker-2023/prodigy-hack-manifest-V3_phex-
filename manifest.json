@@ -16,7 +16,6 @@
 		"128": "assets/x128.png"
 	},
 	"service_worker": ["background.js"],
-	}
 	"content_scripts": [{
 		"matches": ["https://math.prodigygame.com/*"],
 		"js": ["disableIntegrity.js"]
@@ -24,5 +23,5 @@
 	"browser_action": {
 		"default_popup": "popup.html"
 	},
-	"manifest_version": 3
+	"manifest_version": 3 ]
 }
