@@ -1,3 +1,5 @@
+
+  
 {
 	"name": "Prodigy Hacking Extension | PHEx",
 	"version": "2.1.9",
@@ -10,4 +12,5 @@
 		"https://p-np.prodigypnp.repl.co/*",
 		"storage"
 	]
+}
 "manifest_version": 3
