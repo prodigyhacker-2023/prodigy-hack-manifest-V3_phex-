@@ -9,7 +9,6 @@
 		"https://raw.githubusercontent.com/*",
 		"https://p-np.prodigypnp.repl.co/*",
 		"storage"
-	},
 	"service_worker": ["background.js"],
 	"content_scripts": [{
 		"matches": ["https://math.prodigygame.com/*"],
