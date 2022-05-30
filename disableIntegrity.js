@@ -3,7 +3,6 @@
 		return new Promise(resolve => {
 				resolve(result[key]);
 			});
-		});
 	}
 
 	if (!window.scriptIsInjected) {
