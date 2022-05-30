@@ -9,11 +9,6 @@
 		"https://raw.githubusercontent.com/*",
 		"https://p-np.prodigypnp.repl.co/*",
 		"storage"
-	],
-	"icons": {
-		"16": "assets/x16.png",
-		"48": "assets/x48.png",
-		"128": "assets/x128.png"
 	},
 	"service_worker": ["background.js"],
 	"content_scripts": [{
