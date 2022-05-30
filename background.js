@@ -21,7 +21,6 @@ function get(key) {
 };
 
 // Redirect Requests
-browser.webRequest.onBeforeRequest.addListener(async details => {
 	// get options from local
 	const url = await get("url");
 	const checked = await get("checked");
