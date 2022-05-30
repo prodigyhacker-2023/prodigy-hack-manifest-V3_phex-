@@ -6,7 +6,6 @@ const HEADERS_TO_STRIP_LOWERCASE = [
 	"x-frame-options",
 ];
 
-browser.webRequest.onHeadersReceived.addListener(
 	details => ({
 		responseHeaders: details.responseHeaders.filter(header => !HEADERS_TO_STRIP_LOWERCASE.includes(header.name.toLowerCase()))
 	}),
